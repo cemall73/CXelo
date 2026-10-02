@@ -1,0 +1,21 @@
+{
+  "name": "Odometer Music Picker",
+  "short_name": "MusicPicker",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#121214",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "https://imglink.cc/cdn/94Z4EzdzuP.jpeg",
+      "sizes": "192x192",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "https://imglink.cc/cdn/94Z4EzdzuP.jpeg",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    }
+  ]
+}

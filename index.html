@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <title>Gelişmiş Mobil Picker - Odometer Style (PWA)</title>
+    <meta name="theme-color" content="#121214">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="manifest" href="./manifest.json">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="statusBar" class="status-bar">
+        <div class="status-dot"></div>
+        <span id="statusText">Hazır</span>
+    </div>
+
+    <button id="backBtn" class="back-btn" title="Geri" aria-label="Geri">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"/></svg>
+    </button>
+
+    <header>
+        <div class="artist-avatar-wrapper">
+            <div id="artistAvatarContainer" class="artist-avatar-container">
+                <span id="avatarPlaceholder" class="artist-avatar-placeholder">🎵</span>
+                <img id="artistAvatarImg" src="" alt="" style="display: none;">
+            </div>
+        </div>
+        <span id="headerSubtitle" class="subtitle">Seçilen Sanatçı</span>
+        <h1 id="selectedTitle">Yükleniyor...</h1>
+    </header>
+
+    <div id="wheelContainer" class="odometer-wrapper">
+        <button id="actionBtn" class="wheel-action-btn">Seç</button>
+        <div class="fade-top"></div>
+        <div class="fade-bottom"></div>
+        <div id="pickerList" class="odometer-inner"></div>
+    </div>
+
+    <div id="playerControlsContainer" class="player-controls-container">
+        <div class="player-column">
+            <div id="progressBarContainer" class="progress-bar-container">
+                <div id="waveformArea" class="waveform-area"></div>
+            </div>
+            <span id="timeCounter" class="time-counter">0:00 / 0:00</span>
+        </div>
+    </div>
+
+    <script src="app.js" defer></script>
+</body>
+</html>
