@@ -13,7 +13,7 @@ const manifestData = {
 };
 
 const artistData = {
-    "No.1": ["Koyu", "Tekel Sessizliği", "Full Kontak", "Bana Titre", "Sıkıntı Var"],
+    "Xelil": ["Koyu", "Tekel Sessizliği", "Full Kontak", "Bana Titre", "Sıkıntı Var"],
     "Stabil": ["Lavanta"],
     "Ceza": ["Holocaust", "Neyim Var Ki", "Yerli Plaka", "Feyz Al", "Panorama"],
     "Sagopa": ["Galiba", "Vasiyet", "Baytar", "Bu Şehri Arkamda Bırakıyorum", "Kendim Nedense"],
